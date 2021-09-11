@@ -1,5 +1,4 @@
-# Algoritmos2
-## Trabajos en C de algoritmos 2
+# Trabajo en C
 
 Previamente se nos pidio crear todas las estructuras necesarias para usar en el trabajo.
 Estas son:
@@ -181,19 +180,3 @@ Ejemplo: borrar 2018-10-04T02:01:01 2018-11-01T03:00:00
 4701 EV EWR CMH N11150 12 2018-10-04T04:19:24 -10 55 0
 2807 MQ SGF DFW N604MQ 00 2018-10-05T13:57:14 00 107 0
 OK
-Criterios de aprobación
-El código entregado debe ser claro y legible y ajustarse a las especificaciones de la consigna. Debe compilar sin advertencias y correr sin errores de memoria.
-
-La entrega incluye, obligatoriamente, los siguientes archivos de código:
-
-el código de la solución del TP.
-el código de los TDAs programados en la cursada que se requieran, con las modificaciones que sean necesarias.
-un archivo deps.mk con las dependencias del proyecto en formato make. Este deberá contener sólamente una línea que indique qué objetos necesita para compilar el ejecutable algueiza, por ejemplo:
-algueiza: tp2.o hash.o abb.o heap.o strutil.o
-El corrector automático va a interpretar ese archivo de dependencias y va a compilar todos los .o especificados a partir de los .h y .c que deberán enviar, con los siguientes flags de GCC:
-
--g -std=c99 -Wall -Wtype-limits -pedantic -Wconversion -Wno-sign-conversion
-La entrega se realiza:
-
-en forma digital a través del sistema de entregas, con todos los archivos mencionados en un único archivo ZIP.
-en papel durante la clase (si su ayudante lo requiere) el código del Trabajo en hoja A4 abrochadas, sin folio, informe ni carátula. No es necesario reimprimir el código de los TDA.
